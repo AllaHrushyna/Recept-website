@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Love;
+    src: url(/src/Love\ Craft\ Italic.ttf);
+  }
+
+  @font-face {
+    font-family: Simple;
+    src: url(/src/SimpleHandmade.otf);
+  }
+
+body {
+    background-color: rgb(227, 230, 230);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.start-beeld {
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+img {
+    height: 150px;
+    width: 300px;
+   object-fit: cover;
+}
+
+.img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+font-size: 50px;
+}
+
+h2 {font-size: 35px;
+
+}
+h3 {font-family: Simple;
+    font-size: 30px;
+}
